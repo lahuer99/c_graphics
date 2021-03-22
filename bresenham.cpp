@@ -1,6 +1,6 @@
 //Bresenham algorithm
 //also a scan conversion algorithm(but only integer calc.)
-//moves across the x-axis in unit intervals and chooses b/w y-coordinates(based on mid-point principle)
+//moves across the x-axis in unit intervals and chooses b/w y-coordinates(based on mid-point principle){as rate of change of y is less,so we need close points wrt y}
 //does not consider vertical,horizontal and diagonal lines(has to be done explicitly)
 //uses H and W in decision function F=2H(x-x1)-2W(y-y1);(=0 -> on line)
 //F<0 => midpoint induced lines' slope is more than req. line, so we take (x+1,y)
